@@ -24,15 +24,6 @@ body {
     z-index: 1000; 
 }
 
-.logo-sticky {
-    width: 100px; /* Ajuste conforme necessário */
-    height: auto;
-    position: fixed; /* Fixa no topo da tela */
-    top: 5px; /* Ajuste conforme necessário */
-    left: calc(50% - 50px); /* Centraliza horizontalmente */
-    display: none; /* Oculta por padrão */
-    z-index: 2000; /* Garante que a logo sticky está acima de outros elementos */
-}
 
 .nav-bar {
      display: none;
@@ -382,3 +373,9 @@ body {
     color: #bbb;
     text-decoration: none;
   }
+
+  .bio, .depoimentos, .fotos, .contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
